@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Rock Paper Scissors - By Coding Lynx</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="RpsStyle.css">
+</head>
+
+<body>
+    <h1>--Rock Paper Scissors--</h1>
+    <div class="choices">
+        <button onclick="playGame('rock')">✊</button>
+        <button onclick="playGame('paper')">🤚</button>
+        <button onclick="playGame('scissors')">✌️</button>
+    </div>
+
+    <div id="playerDisplay">You Chose: </div>
+    <div id="computerDisplay">Comp Chose: </div>
+    <div id="resultDisplay"> </div>
+
+    <div class="scoreDisplay">Player Score: <span id="playerScoreDisplay">0</span>
+    </div>
+    <div class="scoreDisplay">Computer Score: <span id="computerScoreDisplay">0</span>
+    </div>
+
+
+    <script src="RpsScript.js" async defer></script>
+</body>
+
+</html>
