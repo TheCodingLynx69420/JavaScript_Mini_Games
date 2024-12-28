@@ -1,0 +1,39 @@
+/*importing my favorite font! (optional)*/
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*basic body settings (you can always set your own preference):*/
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(65, 182, 249);
+    color: azure;
+    text-align: center;
+}
+
+/*(the logo image is the title)*/
+
+#title {
+    height: 30vh;
+}
+
+/*settings for main game board*/
+
+#board {
+    height: 360px;
+    width: 360px;
+    background-color: rgb(106, 146, 248);
+    margin: 0 auto;
+    border: 10px solid rgb(67, 88, 137);
+    /* the "display flex" and "flex-wrap" below is gonna make sure the tiles are going to fill instead of stacking above each other*/
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*settings for the images in board*/
+
+#board img {
+    height: 118px;
+    width: 118px;
+    border: 1px solid rgb(95, 123, 216);
+}
+
+/*----------------End----------------*/
