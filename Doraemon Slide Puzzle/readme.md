@@ -1,5 +1,5 @@
 <h1>Doraemon Slide puzzle Game</h1>
-<p><b>This is actually pretty fun experince if you are a beginner</b></p>
+<p><b>This is actually pretty fun experience if you are a beginner</b></p>
 <h2>Be sure to download all of the png/jpg images or you can alternatively use your own cropped image</h2>
 
 heres the demo about how the game looks:
